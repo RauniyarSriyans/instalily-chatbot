@@ -75,7 +75,8 @@ scrapy crawl all_models_parts
 ```bash
 cd partselect
 scrapy crawl model -a model_number={{model_number}}
-The output will be saved in the 'out/models/' folder inside backend directory. The name of the file should match {{model_number}}.jsonl.
+The output will be saved in the 'out/models/' folder inside backend directory.
+The name of the file should match {{model_number}}.jsonl.
 ```
 
 # 3. Scrape Individual Part
@@ -83,5 +84,6 @@ The output will be saved in the 'out/models/' folder inside backend directory. T
 ```bash
 cd partselect
 scrapy crawl part_details -a partselect_number={{partselect_number}}
-The output will be saved in the 'out/parts/' folder inside backend directory. The name of the file should match {{partselect_number}}.jsonl.
+The output will be saved in the 'out/parts/' folder inside backend directory.
+The name of the file should match {{partselect_number}}.jsonl.
 ```
